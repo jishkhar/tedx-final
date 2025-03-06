@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import sp1 from '../../assets/about/year2/nidhi.jpg'
+import sp1 from '../../assets/sponsors/nssilk.jpeg'
+import sp2 from '../../assets/sponsors/sirimart.jpeg'
+import sp3 from '../../assets/sponsors/vegguru.jpeg'
 
 const Partners = () => {
   return (
@@ -34,11 +36,12 @@ const Partners = () => {
 
         </div>
 
-        <div className="flex justify-center items-center p-10 space-x-10">
-          <img src={sp1} className="w-1/4" />
-          <img src={sp1} className="w-1/4" />
-          <img src={sp1} className="w-1/4" />
+        <div className="flex justify-center items-center py-32 px-52 space-x-10">
+          <img src={sp1} className="w-1/2 h-64" />
+          <img src={sp2} className="w-1/2 h-64" />
+          <img src={sp3} className="w-1/2 h-64" />
         </div>
+
       </div>
     </>
   );
