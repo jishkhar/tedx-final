@@ -62,7 +62,7 @@ import viraj from "../../assets/about/year2/viraj.jpg";
 // import anjali from "";
 import ritvik from "../../assets/about/year2/ritvik.jpeg";
 // import sanvi from "";
-// import monal from "";
+import monal from "../../assets/about/year2/monal.jpg";
 import sadiya from "../../assets/about/year2/sadiya.jpeg";
 // import poornima from "";
 
@@ -323,7 +323,7 @@ const About = () => {
               <Card test={juhi} name="Juhi" position="3rd Year" />
               <Card test={avinash} name="Avinash" position="3rd Year" />
               <Card test={hiremath} name="Abhishek Hiremath" position="2nd Year" />
-              <Card test="monal" name="Monal" position="2nd Year" />
+              <Card test={monal} name="Monal" position="2nd Year" />
               <Card test={sadiya} name="Sadiya" position="2nd Year" />
               {/* <Card test={poornima}name="Poornima" position="2nd Year" /> */}
               <Card test={abhig} name="Abhishek Gupta" position="2nd Year" />
