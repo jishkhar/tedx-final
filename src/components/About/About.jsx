@@ -14,6 +14,7 @@ import anusha from "../../assets/about/year2/anusha.jpg";
 import arpita from "../../assets/about/year2/arpita.jpg";
 import arshan from "../../assets/about/year3/arshan.jpg";
 import ashish from "../../assets/about/year2/ashish.jpeg";
+import ashutosh from '../../assets/about/year2/ashutosh.jpeg'
 import avinash from "../../assets/about/year3/avinash.jpg";
 import devank from "../../assets/about/year1/devank.jpg";
 import dhanush from "../../assets/about/year2/dhanush.jpg";
@@ -227,10 +228,8 @@ const About = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
               <Card test={raksha} name="Shreeraksha N" position="Organizer" />
-              <Card  name="Sayan Das" position="Co-Organizer" />
               <Card test={sanjana}name="Sanjana" position="Head of Arts" />
               <Card test={krish}name="Krish" position="Head of Marketing" />
-              <Card name="Abir Sarkar" position="Head of Development" className="md:col-span-2 lg:col-span-1 lg:col-start-2" />
             </div>
           </motion.div>
 
@@ -294,12 +293,12 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
               <Card test={purbayan}name="Purbayan Biswas" position="3rd Year" />
               <Card test="sanvi" name="Sanvi" position="2nd Year" />
-              <Card test={ritvik}name="Ritvik" position="2nd Year" />
-              <Card name="Anurag" position="2nd Year" />
-              <Card name="Ashutosh" position="2nd Year" />
+              <Card test={ritvik}name="Ritvik Bhatnagar" position="2nd Year" />
+              <Card test="anurag" name="Anurag" position="2nd Year" />
+              <Card test={ashutosh} name="Ashutosh" position="2nd Year" />
               <Card test={arpita}name="Arpita" position="2nd Year" />
               <Card test={himank}name="Himank" position="2nd Year" />
-              <Card name="Basayya" position="2nd Year" />
+              <Card test="bassi" name="Basayya" position="2nd Year" />
               <Card test={karan}name="Karan Anand" position="2nd Year" />
               <Card test={poorvika}name="Poorvika" position="2nd Year" />
               <Card test={saish}name="Saish" position="1st Year" />
