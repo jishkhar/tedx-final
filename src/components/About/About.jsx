@@ -9,7 +9,7 @@ import grp from "../../assets/about/group.png";
 import abhig from "../../assets/about/year2/abhishekg.jpeg";
 import anagha from "../../assets/about/year1/anagha.jpg";
 import anisha from "../../assets/about/year1/anisha.jpg";
-import ankit from "../../assets/about/year3/ankit.jpg"; 
+import ankit from "../../assets/about/year3/ankit.jpg";
 import anusha from "../../assets/about/year2/anusha.jpg";
 import arpita from "../../assets/about/year2/arpita.jpg";
 import arshan from "../../assets/about/year3/arshan.jpg";
@@ -181,7 +181,7 @@ const About = () => {
                   rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon
-                    className="h-8 text-gray-600 hover:text-current"
+                    className="text-gray-600 hover:text-current fa-2xl"
                     icon={faInstagram}
                   />
                 </a>
@@ -191,7 +191,7 @@ const About = () => {
                   rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon
-                    className="h-8 text-gray-600 hover:text-current"
+                    className="text-gray-600 hover:text-current fa-2xl"
                     icon={faLinkedin}
                   />
                 </a>
@@ -201,11 +201,12 @@ const About = () => {
                   rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon
-                    className="h-8 text-gray-600 hover:text-current"
+                    className="text-gray-600 hover:text-current fa-2xl"
                     icon={faFacebook}
                   />
                 </a>
               </div>
+
             </div>
           </motion.div>
         </div>
@@ -228,8 +229,8 @@ const About = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
               <Card test={raksha} name="Shreeraksha N" position="Organizer" />
-              <Card test={sanjana}name="Sanjana" position="Head of Arts" />
-              <Card test={krish}name="Krish" position="Head of Marketing" />
+              <Card test={sanjana} name="Sanjana" position="Head of Arts" />
+              <Card test={krish} name="Krish" position="Head of Marketing" />
             </div>
           </motion.div>
 
@@ -244,16 +245,16 @@ const About = () => {
               <span className="text-red-600">Curations</span> &nbsp;
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card test={mohith}name="Mohith Sai" position="3rd Year" />
-              <Card test={arshan}name="Arshan" position="3rd Year" />
-              <Card test={khushi}name="Khushi A Narayan" position="2nd Year" />
-              <Card test={shreeya}name="Shreeya" position="2nd Year" />
-              <Card test={vaishnavi}name="Vaishnavi" position="2nd Year" />
+              <Card test={mohith} name="Mohith Sai" position="3rd Year" />
+              <Card test={arshan} name="Arshan" position="3rd Year" />
+              <Card test={khushi} name="Khushi A Narayan" position="2nd Year" />
+              <Card test={shreeya} name="Shreeya" position="2nd Year" />
+              <Card test={vaishnavi} name="Vaishnavi" position="2nd Year" />
               <Card test={jeet} name="Jeet" position="1st Year" />
-              <Card test={skarma}name="Skarma" position="1st Year" />
-              <Card test={tanay}name="Tanay" position="1st Year" />
-              <Card test={vahini}name="Kana Vahini" position="1st Year" />
-              <Card test={srinidhi}name="Srinidhi" position="1st Year" />
+              <Card test={skarma} name="Skarma" position="1st Year" />
+              <Card test={tanay} name="Tanay" position="1st Year" />
+              <Card test={vahini} name="Kana Vahini" position="1st Year" />
+              <Card test={srinidhi} name="Srinidhi" position="1st Year" />
             </div>
           </motion.div>
 
@@ -269,12 +270,12 @@ const About = () => {
               <span className="text-red-600">Development</span> &nbsp; Team
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card test={rajdeep}name="Rajdeep Paul" position="3rd Year" />
-              <Card test={jishnu}name="Jishnu Khargharia" position="2nd Year" />
-              <Card test={prajna}name="Prajna" position="2nd Year" />
-              <Card test={anusha}name="Anusha H" position="2nd Year" />
-              <Card test={rahul}name="Rahul" position="1st Year" />
-              <Card test={devank}name="Devank" position="1st Year" />
+              <Card test={rajdeep} name="Rajdeep Paul" position="3rd Year" />
+              <Card test={jishnu} name="Jishnu Khargharia" position="2nd Year" />
+              <Card test={prajna} name="Prajna" position="2nd Year" />
+              <Card test={anusha} name="Anusha H" position="2nd Year" />
+              <Card test={rahul} name="Rahul" position="1st Year" />
+              <Card test={devank} name="Devank" position="1st Year" />
             </div>
           </motion.div>
 
@@ -291,20 +292,20 @@ const About = () => {
               <span></span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card test={purbayan}name="Purbayan Biswas" position="3rd Year" />
+              <Card test={purbayan} name="Purbayan Biswas" position="3rd Year" />
               <Card test="sanvi" name="Sanvi" position="2nd Year" />
-              <Card test={ritvik}name="Ritvik Bhatnagar" position="2nd Year" />
+              <Card test={ritvik} name="Ritvik Bhatnagar" position="2nd Year" />
               <Card test="anurag" name="Anurag" position="2nd Year" />
               <Card test={ashutosh} name="Ashutosh" position="2nd Year" />
-              <Card test={arpita}name="Arpita" position="2nd Year" />
-              <Card test={himank}name="Himank" position="2nd Year" />
+              <Card test={arpita} name="Arpita" position="2nd Year" />
+              <Card test={himank} name="Himank" position="2nd Year" />
               <Card test="bassi" name="Basayya" position="2nd Year" />
-              <Card test={karan}name="Karan Anand" position="2nd Year" />
-              <Card test={poorvika}name="Poorvika" position="2nd Year" />
-              <Card test={saish}name="Saish" position="1st Year" />
-              <Card test={shubhankar}name="Shubhankar" position="1st Year" />
-              <Card test={kapil}name="Kapil" position="1st Year" />
-              <Card test={anisha}name="Anisha" position="1st Year" />
+              <Card test={karan} name="Karan Anand" position="2nd Year" />
+              <Card test={poorvika} name="Poorvika" position="2nd Year" />
+              <Card test={saish} name="Saish" position="1st Year" />
+              <Card test={shubhankar} name="Shubhankar" position="1st Year" />
+              <Card test={kapil} name="Kapil" position="1st Year" />
+              <Card test={anisha} name="Anisha" position="1st Year" />
             </div>
           </motion.div>
 
@@ -319,25 +320,25 @@ const About = () => {
               <span className="text-red-600">Socials</span> &nbsp;{" "}
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card test={juhi}name="Juhi" position="3rd Year" />
-              <Card test={avinash}name="Avinash" position="3rd Year" />
-              <Card test={hiremath}name="Abhishek Hiremath" position="2nd Year" />
+              <Card test={juhi} name="Juhi" position="3rd Year" />
+              <Card test={avinash} name="Avinash" position="3rd Year" />
+              <Card test={hiremath} name="Abhishek Hiremath" position="2nd Year" />
               <Card test="monal" name="Monal" position="2nd Year" />
-              <Card test={sadiya}name="Sadiya" position="2nd Year" />
+              <Card test={sadiya} name="Sadiya" position="2nd Year" />
               {/* <Card test={poornima}name="Poornima" position="2nd Year" /> */}
-              <Card test={abhig}name="Abhishek Gupta" position="2nd Year" />
-              <Card test={piyush}name="Piyush Kumar" position="2nd Year" />
-              <Card test={nikhil}name="Nikhil K G" position="2nd Year" />
-              <Card test={om}name="Om Trivedi" position="1st Year" />
+              <Card test={abhig} name="Abhishek Gupta" position="2nd Year" />
+              <Card test={piyush} name="Piyush Kumar" position="2nd Year" />
+              <Card test={nikhil} name="Nikhil K G" position="2nd Year" />
+              <Card test={om} name="Om Trivedi" position="1st Year" />
               {/* <Card name="Gagan" position="1st Year" /> */}
-              <Card test={karthik}name="Kartik" position="1st Year" />
-              <Card test={anagha}name="Anagha" position="1st Year" />
-              <Card test={dhruthi}name="Dhruthi" position="1st Year" />
-              <Card test={piyushjr}name="Piyush Kumar" position="1st Year" />
+              <Card test={karthik} name="Kartik" position="1st Year" />
+              <Card test={anagha} name="Anagha" position="1st Year" />
+              <Card test={dhruthi} name="Dhruthi" position="1st Year" />
+              <Card test={piyushjr} name="Piyush Kumar" position="1st Year" />
             </div>
           </motion.div>
 
-          
+
 
           <motion.div
             variants={fadeIn2("left", 0.5)}
@@ -350,9 +351,9 @@ const About = () => {
               <span className="text-red-600">Budget</span> &nbsp; Team
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card test={purbayan}name="Purbayan Biswas" position="3rd Year" />
-              <Card test={arshan}name="Arshan" position="3rd Year" />
-              <Card test={ashish}name="Ashish" position="2nd Year" />
+              <Card test={purbayan} name="Purbayan Biswas" position="3rd Year" />
+              <Card test={arshan} name="Arshan" position="3rd Year" />
+              <Card test={ashish} name="Ashish" position="2nd Year" />
             </div>
           </motion.div>
 
@@ -368,21 +369,21 @@ const About = () => {
               <span> &nbsp;Operations</span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card test={shrusti}name="Shrusti" position="3rd Year" />
-              <Card test={lavanya}name="Lavanya" position="3rd Year" />
-              <Card test="anjali"name="Anjali" position="3rd Year" />
-              <Card test={ankit}name="Ankit" position="3rd Year" />
-              <Card test={sadiya}name="Sadiya" position="2nd Year" />
-              <Card test={hs}name="HS Shreyas" position="2nd Year" />
+              <Card test={shrusti} name="Shrusti" position="3rd Year" />
+              <Card test={lavanya} name="Lavanya" position="3rd Year" />
+              <Card test="anjali" name="Anjali" position="3rd Year" />
+              <Card test={ankit} name="Ankit" position="3rd Year" />
+              <Card test={sadiya} name="Sadiya" position="2nd Year" />
+              <Card test={hs} name="HS Shreyas" position="2nd Year" />
               <Card name="Tejaswini" position="2nd Year" />
-              <Card test={dhanush}name="Dhanush" position="2nd Year" />
-              <Card test={viraj}name="Viraj" position="2nd Year" />
-              <Card test={nidhi}name="Nidhi" position="2nd Year" />
-              <Card test={richa}name="Richa Jha" position="1st Year" />
-              <Card test={samprathi}name="Samprathi" position="1st Year" />
-              <Card test={shreya}name="Shreya" position="1st Year" />
-              <Card test={khushi}name="Khushi MC" position="1st Year" />
-            <Card test={satyakam}name="Satyakam Vats" position="1st Year" />
+              <Card test={dhanush} name="Dhanush" position="2nd Year" />
+              <Card test={viraj} name="Viraj" position="2nd Year" />
+              <Card test={nidhi} name="Nidhi" position="2nd Year" />
+              <Card test={richa} name="Richa Jha" position="1st Year" />
+              <Card test={samprathi} name="Samprathi" position="1st Year" />
+              <Card test={shreya} name="Shreya" position="1st Year" />
+              <Card test={khushi} name="Khushi MC" position="1st Year" />
+              <Card test={satyakam} name="Satyakam Vats" position="1st Year" />
             </div>
           </motion.div>
         </div>
