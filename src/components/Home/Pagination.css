@@ -1,10 +1,8 @@
-/* Style for inactive pagination dots */
 .swiper-pagination-bullet {
-    background: rgb(255, 255, 255); /* Light grey color */
-  }
+  background: rgb(255, 255, 255);
+}
   
-  /* Style for active pagination dot */
-  .swiper-pagination-bullet-active {
-    background: #f31c2e; /* Orange color */
-  }
+.swiper-pagination-bullet-active {
+  background: #f31c2e;
+}
   

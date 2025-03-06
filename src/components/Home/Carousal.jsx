@@ -18,7 +18,7 @@ const Carousal = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center flex-col h-auto bg-black py-8">
+      <div className="flex items-center justify-center flex-col h-auto  py-36">
         <h1
           className="text-center text-2xl md:text-4xl py-4 mb-8 font-bold text-white"
           style={lexend}

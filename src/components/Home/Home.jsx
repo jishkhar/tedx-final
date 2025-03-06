@@ -13,7 +13,7 @@ const Home = () => {
         Kronospect
       </div>
 
-      <div className='py-12'>
+      <div className='my-12'>
         <Carousal />
       </div>
 
@@ -22,8 +22,8 @@ const Home = () => {
       </div>
 
       <div className='flex flex-col items-center text-center px-6 py-16 space-y-8'>
-        <h1 className='text-5xl font-bold text-gray-800'>REASONS TO ATTEND</h1>
-        <p className='text-lg text-gray-600 max-w-2xl'>
+        <h1 className='text-5xl font-bold'>REASONS TO ATTEND</h1>
+        <p className='text-lg max-w-2xl'>
           Opportunity to meet the heroes you have followed for your life and interact with pioneers of the fields you are interested in.
         </p>
       </div>
