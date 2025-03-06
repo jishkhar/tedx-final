@@ -384,6 +384,7 @@ const About = () => {
               <Card test={shreya} name="Shreya" position="1st Year" />
               <Card test={khushi} name="Khushi MC" position="1st Year" />
               <Card test={satyakam} name="Satyakam Vats" position="1st Year" />
+              <Card test={khushijr} name="Khushi M C" position="1st Year" />
             </div>
           </motion.div>
         </div>
