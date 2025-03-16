@@ -61,11 +61,11 @@ import vaishnavi from "../../assets/about/year2/vaishnavi.jpg";
 import viraj from "../../assets/about/year2/viraj.jpg";
 // import anjali from "";
 import ritvik from "../../assets/about/year2/ritvik.jpeg";
-// import sanvi from "";
+import sanvi from "../../assets/about/year2/sanvi.jpg";
 import monal from "../../assets/about/year2/monal.jpg";
 import sadiya from "../../assets/about/year2/sadiya.jpeg";
 // import poornima from "";
-
+import basayya from "../../assets/about/year2/basayya.jpeg";
 
 import { motion } from "framer-motion";
 import { fadeIn, fadeIn2 } from "../../variants.js";
@@ -293,13 +293,13 @@ const About = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
               <Card test={purbayan} name="Purbayan Biswas" position="3rd Year" />
-              <Card test="sanvi" name="Sanvi" position="2nd Year" />
+              <Card test={sanvi} name="Sanvi" position="2nd Year" />
               <Card test={ritvik} name="Ritvik Bhatnagar" position="2nd Year" />
               <Card test="anurag" name="Anurag" position="2nd Year" />
               <Card test={ashutosh} name="Ashutosh" position="2nd Year" />
               <Card test={arpita} name="Arpita" position="2nd Year" />
               <Card test={himank} name="Himank" position="2nd Year" />
-              <Card test="bassi" name="Basayya" position="2nd Year" />
+              <Card test={basayya} name="Basayya" position="2nd Year" />
               <Card test={karan} name="Karan Anand" position="2nd Year" />
               <Card test={poorvika} name="Poorvika" position="2nd Year" />
               <Card test={saish} name="Saish" position="1st Year" />

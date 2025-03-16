@@ -2,7 +2,7 @@ import React from 'react';
 import Carousal from './Carousal';
 import About from './Us';
 
-import test from '../../assets/about/year2/nidhi.jpg';
+import test from '../../assets/about/year2/jishnu.jpeg';
 
 const Home = () => {
   const textArray = ["About TED", "About TEDx", "About TEDxSIT", "Our Mission", "Our Vision", "Join Us"];

@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import Card from './Card.jsx';
 import { motion } from 'framer-motion'
 import { fadeIn5 } from '../../variants.js';
-import { param } from 'framer-motion/client';
 
-import test from '../../assets/about/year2/nidhi.jpg'
+import test from '../../assets/about/year2/jishnu.jpeg'
 
 
 const Speakers = () => {

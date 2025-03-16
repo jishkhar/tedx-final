@@ -1,4 +1,4 @@
-import test from '../../assets/about/year2/nidhi.jpg'
+import test from '../../assets/about/year2/jishnu.jpeg'
 export const ServiceData = [
 
     {
