@@ -8,7 +8,7 @@ import About from './components/About/About.jsx'
 import Speakers from './components/Speakers/Speakers.jsx'
 import Partners from './components/Partners/Partners.jsx'
 import Contact from './components/Contact/Contact.jsx'
-import Register from './components/Register/Register.jsx'
+
 import { Route } from 'react-router-dom'
 
 const router = createBrowserRouter(
@@ -19,7 +19,7 @@ const router = createBrowserRouter(
         <Route path='speakers' element={<Speakers />} />
         <Route path='partners' element={<Partners />} />
         <Route path='contact' element={<Contact />} />
-        <Route path='register' element={<Register />} />
+       
     </Route>
   )
 )

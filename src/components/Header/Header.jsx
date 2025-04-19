@@ -26,7 +26,7 @@ const Header = () => {
                 {/* Nav Links */}
                 <div className="lg:flex hidden">
                     <ul className="flex lg:flex-row flex-col items-center lg:gap-[2vw] gap-8 text-[1.1rem]">
-                        {['/', 'about', 'speakers', 'partners', 'contact', 'register'].map((path, index) => (
+                        {['/', 'about', 'speakers', 'partners', 'contact' ].map((path, index) => (
                             <li key={index}>
                                 <NavLink
                                     to={path}
@@ -60,7 +60,7 @@ const Header = () => {
                     }`}
                 >
                     <ul className="flex flex-col items-center gap-4 py-4 text-[1.1rem]">
-                        {['/', 'about', 'speakers', 'partners', 'contact', 'register'].map((path, index) => (
+                        {['/', 'about', 'speakers', 'partners', 'contact'].map((path, index) => (
                             <li key={index}>
                                 <NavLink
                                     to={path}
