@@ -1,45 +1,44 @@
-import React from 'react';
-import Carousal from './Carousal';
-import About from './Us';
+import React from "react";
+import hero from "../../assets/home/hero1.jpg";
+import Carousal from "../Home/Carousal";
+import About from "../Home/Us";
+import Reasons from "../Home/Reasons";
 
-import test from '../../assets/about/year2/jishnu.jpeg';
-
+import VRModel from "./VRModel";
 const Home = () => {
-  const textArray = ["About TED", "About TEDx", "About TEDxSIT", "Our Mission", "Our Vision", "Join Us"];
-
   return (
-    <>
-      <div className='h-screen flex items-center justify-center text-6xl font-bold text-gray-800'>
-        Kronospect
-      </div>
+    <> 
+    <section className="bg-black text-white py-16 px-4 sm:px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-around gap-2">
+        {/* Left: Text Content */}
+        <div className="flex-1 text-center md:text-left">
+          <h1 className="text-4xl sm:text-6xl md:text-9xl font-extrabold text-red-600 mb-4 md:mb-6"style={{ fontFamily: '"Noto Sans Mono", monospace' }}>
+            KRONOSPECT
+          </h1>
+          <p className="text-base sm:text-lg leading-relaxed max-w-xxl mx-auto md:mx-0"style={{ textAlign: "justify",  fontFamily: '"Roboto-condensed", sans-serif' }}>
+          
+            Kronospect invites you to reimagine the fabric of time—where the past informs,
+            the present engages, and the future unfolds through innovation. As a theme,
+            it challenges conventional timelines and encourages a visionary approach to
+            progress, creativity, and discovery. Step into a space where ideas transcend
+            moments, and time becomes a canvas for transformation.
+          </p>
+        </div>
 
-      <div className='my-12'>
-        <Carousal />
+        {/* Right: Placeholder for 3D/VR Model */}
+        <div className="flex-1 w-full h-64 sm:h-80 md:h-96 rounded-xl flex items-center justify-center">
+          <VRModel />
+        </div>
       </div>
-
-      <div className='py-12'>
-        <About />
-      </div>
-
-      <div className='flex flex-col items-center text-center px-6 py-16 space-y-8'>
-        <h1 className='text-5xl font-bold'>REASONS TO ATTEND</h1>
-        <p className='text-lg max-w-2xl'>
-          Opportunity to meet the heroes you have followed for your life and interact with pioneers of the fields you are interested in.
-        </p>
-      </div>
-
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 px-28 pb-16 place-items-center'>
-        {textArray.map((text, index) => (
-          <div key={index} className='w-[450px] h-[450px] rounded-full bg-gray-500 flex items-center justify-center overflow-hidden relative group shadow-lg'>
-            <span className='absolute text-white text-2xl font-semibold z-10 text-center px-4'>{text}</span>
-            <img
-              src={test}
-              alt='Description'
-              className='w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500'
-            />
-          </div>
-        ))}
-      </div>
+    </section>
+        
+      
+  
+   
+      
+      <Carousal />
+      <About />
+      <Reasons />
     </>
   );
 };
