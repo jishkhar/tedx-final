@@ -61,6 +61,7 @@ import vaishnavi from "../../assets/about/year2/vaishnavi.jpg";
 import viraj from "../../assets/about/year2/viraj.jpg";
 // import anjali from "";
 import ritvik from "../../assets/about/year2/ritvik.jpeg";
+import anurag from "../../assets/about/year2/anurag.jpg";
 import sanvi from "../../assets/about/year2/sanvi.jpg";
 import monal from "../../assets/about/year2/monal.jpg";
 import sadiya from "../../assets/about/year2/sadiya.jpeg";
@@ -75,7 +76,8 @@ const About = () => {
     <>
       <section className="h-fit">
         <div className="flex flex-col justify-center items-center mt-10 mb-28">
-          <div className="font-extrabold text-[2.6rem] text-center">
+        <div className="font-extrabold text-3xl sm:text-4xl md:text-5xl text-center">
+
             <span className="text-red-600">
               TED<sup>X</sup>{" "}
             </span>
@@ -295,7 +297,7 @@ const About = () => {
               <Card test={purbayan} name="Purbayan Biswas" position="3rd Year" />
               <Card test={sanvi} name="Sanvi" position="2nd Year" />
               <Card test={ritvik} name="Ritvik Bhatnagar" position="2nd Year" />
-              <Card test="anurag" name="Anurag" position="2nd Year" />
+              <Card test={anurag} name="Anurag" position="2nd Year" />
               <Card test={ashutosh} name="Ashutosh" position="2nd Year" />
               <Card test={arpita} name="Arpita" position="2nd Year" />
               <Card test={himank} name="Himank" position="2nd Year" />
