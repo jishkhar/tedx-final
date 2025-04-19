@@ -75,16 +75,18 @@ const Speakers = () => {
 
   return (
     <>
-      <div className='flex flex-col justify-center items-center w-[90%] mx-auto my-14 bg-black'>
-        <div className='text-[2.9rem]'>
-          <span className='text-red-600'>PAST</span> &nbsp; SPEAKERS
+      <div className='min-h-screen flex flex-col justify-center items-center px-4 bg-black'>
+        <div className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-8'>
+          <span className='text-red-600'>PAST</span> 
+          <br className="block sm:hidden" />
+          <span>&nbsp;SPEAKERS</span>
         </div>
 
-        <div id="years" className='flex gap-12 text-3xl py-10'>
-          {['2024', '2023', '2022', '2021', '2020', '2019'].map((year) => (
+        <div id="years" className='flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-10 lg:gap-12 text-base sm:text-lg md:text-xl lg:text-2xl'>
+          {['2024', '2023', '2021', '2020', '2019'].map((year) => (
             <button
               key={year}
-              className={`py-3 px-6 rounded-full cursor-pointer ${visibleYear === year ? 'text-red-600' : 'text-white'}`}
+              className={`py-2 px-6 w-32 text-center rounded-full cursor-pointer transition-colors duration-300 ${visibleYear === year ? 'text-red-600' : 'text-white'}`}
               onClick={() => handleButtonClick(year)}
             >
               {year}
